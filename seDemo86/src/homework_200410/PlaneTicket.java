@@ -1,5 +1,4 @@
 package homework_200410;
-
 import java.util.Date;
 
 public class PlaneTicket {
