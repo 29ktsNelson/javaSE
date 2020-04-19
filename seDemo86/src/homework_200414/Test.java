@@ -9,6 +9,7 @@ public class Test {
 		Time time1=new Time(hour[0],minute[0]);
 		System.out.println(time1.fullTime);
 		System.out.println(time1.timeSlot);
+		Time[] tim=new Time[5];
 	}
 
 }

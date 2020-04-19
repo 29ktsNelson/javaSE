@@ -13,7 +13,7 @@ public class Regiter {
 		} else {
 			pt.count++;
 		}
-		if (time.hour!=0&&pt.count > 0 &&pt.count <= 3) {
+		if (time.hour!=0&&time.minute!=0&&pt.count > 0 &&pt.count <= 3) {
 			System.out.println("患者" + pt.pName + "于" + time.fullTime + "第" + pt.count + "次挂号。" + "挂号段：" + time.timeSlot
 					+ " 剩余挂号次数" + (3 - pt.count) + "次");
 		} else if(pt.count>3){
