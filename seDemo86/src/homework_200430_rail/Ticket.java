@@ -23,6 +23,7 @@ public class Ticket {
 		this.originSite = originSite;
 		this.endSite = endSite;
 		this.seatClass = seatClass;
+		this.price=calPrice();
 	}
 
 	public String getName() {
